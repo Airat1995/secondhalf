@@ -1,0 +1,10 @@
+{ "Local": [
+   { "Key" : “starthint”, "Value”:”Зажми оба круга чтобы начать!” },
+   { "Key" : "inputsettings", "Value”:”Ввод” },
+   { "Key" : "soundsettings", "Value”:”Звук” },
+   { "Key" : "langsettings", "Value”:”Язык” },
+   { "Key" : "invertx", "Value”:”Инвертировать X” },
+   { "Key" : "inverty", "Value”:”Инвертировать Y” },
+   { "Key" : "playsound", "Value”:”Со звуком” },
+   { "Key" : “level1hint”, "Value”:”Двигай оба джойстика одновременно чтобы двигать шарики!” },
+] }

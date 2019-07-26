@@ -1,0 +1,10 @@
+{"Locales":[
+	{"Key":"starthint","Value":"Hold both buttons to start!"},
+	{"Key":"inputsettings","Value":"Input"},
+	{"Key":"soundsettings","Value":"Sound"},
+	{"Key":"langsettings","Value":"Language"},
+	{ "Key":"invertx","Value":"Invert X"},
+	{ "Key":"inverty","Value":"Invert Y"},
+	{ "Key":"playsound","Value":"Play sound"},
+	{ "Key":"level1hint","Value":"Swipe both joystick simultaneously to move balls!" }
+]}

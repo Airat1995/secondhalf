@@ -1,0 +1,11 @@
+{"Locales":[
+	{ "Key":"starthint","Value":"Зажми обе кнопки, чтобы начать!"},
+	{ "Key":"inputsettings","Value":"Ввод"},
+	{ "Key":"soundsettings","Value":"Звук"},
+	{ "Key":"langsettings","Value":"Язык"},
+	{ "Key":"invertx","Value":"Ивеертированный X"},
+	{ "Key":"inverty","Value":"Инвертированный Y"},
+	{ "Key":"sound","Value":"Звук"},
+	{ "Key":"level1hint","Value":"Двигай оба джойстика чтобы перемещать шары!"},
+	{ "Key":"langsoon", "Value":"Настройка языка будет доступна позже"}
+]}
