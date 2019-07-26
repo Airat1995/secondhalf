@@ -145,14 +145,19 @@ public class LevelManager : MonoBehaviour {
 		var levelsList = new List<LevelInfo>();
 		if(!File.Exists(LevelChooseDB))
 			File.Create(LevelChooseDB);
-		var format = new BinaryFormatter();
-		FileStream stream = File.Open(LevelChooseDB, FileMode.Open);
-		if(stream.Length == 0)
-			return levelsList;
-		levelsList.AddRange(format.Deserialize(stream) as List<LevelInfo>);
-		stream.Close();
-		return levelsList;
-
+        FileStream stream = File.Open(LevelChooseDB, FileMode.Open);
+        try
+        {
+            var format = new BinaryFormatter();            
+            if (stream.Length == 0)
+                return levelsList;
+            levelsList.AddRange(format.Deserialize(stream) as List<LevelInfo>);
+            return levelsList;
+        }
+        finally
+        {
+            stream.Close();
+        }
 	}
 
 	protected void SaveLevelsInfo(List<LevelInfo> levelsInfo)
